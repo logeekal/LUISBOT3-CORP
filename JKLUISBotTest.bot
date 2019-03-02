@@ -49,14 +49,14 @@
             "id": "5"
         },
         {
-        "type": "luis",
-        "name": "LuisBot",
-        "appId": "3da71d74-729c-44d0-aaca-1da0a73cdc41",
-        "version": "0.1",
-        "authoringKey": "b634d49a4dac4c2686055763c9bc9f6e",
-        "subscriptionKey": "b634d49a4dac4c2686055763c9bc9f6e",
-        "region": "westus",
-        "id": "158"
+            "type": "luis",
+            "name": "LuisBot",
+            "appId": "3da71d74-729c-44d0-aaca-1da0a73cdc41",
+            "version": "0.1",
+            "authoringKey": "b634d49a4dac4c2686055763c9bc9f6e",
+            "subscriptionKey": "b634d49a4dac4c2686055763c9bc9f6e",
+            "region": "westus",
+            "id": "158"
         }
     ],
     "padlock": "",
