@@ -108,9 +108,11 @@ let server = restify.createServer();
 //try to log the data.
 server.pre(function(req,res, next){
     console.log("**********   New Request **********")
+    console.log("**********   New Request - HEADER **********")
     console.log(req.headers);
-    console.log(req.body);
-    console.log(req);
+    console.log("**********   New Request - URL **********")
+    console.log(req.href);
+    //console.log(req);
     console.log("**********  End Request **********")
 });
 //Change ends.
