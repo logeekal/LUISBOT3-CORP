@@ -111,7 +111,7 @@ server.pre(function(req,res, next){
     console.log("**********   New Request - HEADER **********")
     console.log(req.headers);
     console.log("**********   New Request - URL **********")
-    console.log(req.href);
+    console.log(req.getHref);
     //console.log(req);
     console.log("**********  End Request **********")
 });
