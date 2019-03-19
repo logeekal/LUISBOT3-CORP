@@ -104,6 +104,17 @@ try {
 
 // Create HTTP server.
 let server = restify.createServer();
+
+//try to log the data.
+server.pre(function(req,res, next){
+    console.log("**********   New Request **********")
+    console.log(req.headers);
+    console.log(req.body);
+    console.log(req);
+    console.log("**********  End Request **********")
+});
+//Change ends.
+
 server.listen(process.env.port || process.env.PORT || 3978, function() {
     console.log(`\n${ server.name } listening to ${ server.url }.`);
     console.log(`\nGet Bot Framework Emulator: https://aka.ms/botframework-emulator.`);
