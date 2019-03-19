@@ -106,15 +106,15 @@ try {
 let server = restify.createServer();
 
 //try to log the data.
-server.pre(function(req,res, next){
-    console.log("**********   New Request **********")
-    console.log("**********   New Request - HEADER **********")
-    console.log(req.headers);
-    console.log("**********   New Request - URL **********")
-    console.log(req.getHref());
-    //console.log(req);
-    console.log("**********  End Request **********")
-});
+// server.pre(function(req,res, next){
+//     console.log("**********   New Request **********")
+//     console.log("**********   New Request - HEADER **********")
+//     console.log(req.headers);
+//     console.log("**********   New Request - URL **********")
+//     console.log(req.getHref());
+//     //console.log(req);
+//     console.log("**********  End Request **********")
+// });
 //Change ends.
 
 server.listen(process.env.port || process.env.PORT || 3978, function() {
